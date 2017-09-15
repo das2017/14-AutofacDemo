@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutofacDemo", "AutofacDemo\AutofacDemo.csproj", "{08EAC2BA-1F37-405C-B3AF-D5678C919B19}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CommonLayer", "CommonLayer", "{CAC174D9-FF9A-4853-B6E1-5BCD423D3294}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flight.Product.Utility", "CommonLayer\Flight.Product.Utility\Flight.Product.Utility.csproj", "{351B60AE-3BE5-4EF7-8CFF-5266DA169268}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ReferenceDll", "ReferenceDll", "{DEC4779A-E422-4A51-83F9-C5572E06163A}"
+	ProjectSection(SolutionItems) = preProject
+		ReferenceDll\Autofac.Configuration.dll = ReferenceDll\Autofac.Configuration.dll
+		ReferenceDll\Autofac.Configuration.xml = ReferenceDll\Autofac.Configuration.xml
+		ReferenceDll\Autofac.dll = ReferenceDll\Autofac.dll
+		ReferenceDll\Autofac.xml = ReferenceDll\Autofac.xml
+		ReferenceDll\FxCommon.dll = ReferenceDll\FxCommon.dll
+		ReferenceDll\log4net.dll = ReferenceDll\log4net.dll
+		ReferenceDll\Redis.dll = ReferenceDll\Redis.dll
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{08EAC2BA-1F37-405C-B3AF-D5678C919B19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08EAC2BA-1F37-405C-B3AF-D5678C919B19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08EAC2BA-1F37-405C-B3AF-D5678C919B19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08EAC2BA-1F37-405C-B3AF-D5678C919B19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{351B60AE-3BE5-4EF7-8CFF-5266DA169268}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{351B60AE-3BE5-4EF7-8CFF-5266DA169268}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{351B60AE-3BE5-4EF7-8CFF-5266DA169268}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{351B60AE-3BE5-4EF7-8CFF-5266DA169268}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{351B60AE-3BE5-4EF7-8CFF-5266DA169268} = {CAC174D9-FF9A-4853-B6E1-5BCD423D3294}
+	EndGlobalSection
+EndGlobal
